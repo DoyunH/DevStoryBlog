@@ -21,6 +21,7 @@ yarn start
 - [x] Create React App
 - [x] Add TypeScript
 - [x] Connect with GitHub
+- [x] host on GitHub Pages
 
 ## Task List
 
