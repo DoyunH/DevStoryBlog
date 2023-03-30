@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/DoyunH/DevStoryBlog/static/css/main.02893b03.css",
+    "main.js": "/DoyunH/DevStoryBlog/static/js/main.5cb65054.js",
+    "static/js/787.75e1924f.chunk.js": "/DoyunH/DevStoryBlog/static/js/787.75e1924f.chunk.js",
+    "static/media/logo.svg": "/DoyunH/DevStoryBlog/static/media/logo.dfe60c47dd8f01f9bac53ae76434bae5.svg",
+    "index.html": "/DoyunH/DevStoryBlog/index.html",
+    "main.02893b03.css.map": "/DoyunH/DevStoryBlog/static/css/main.02893b03.css.map",
+    "main.5cb65054.js.map": "/DoyunH/DevStoryBlog/static/js/main.5cb65054.js.map",
+    "787.75e1924f.chunk.js.map": "/DoyunH/DevStoryBlog/static/js/787.75e1924f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02893b03.css",
+    "static/js/main.5cb65054.js"
+  ]
+}
