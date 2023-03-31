@@ -8,9 +8,6 @@ function App() {
         <img src={logo} className="w-10" alt="logo" />
         <p className="text-2xl font-semibold mr-10">DevStoryBlog</p>
       </nav>
-      <Link to="/shadowdom">
-        <button className="bg-green-400 rounded-lg text-sm">Shadow DOM</button>
-      </Link>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/shadowdom" element={<ShadowDom />} />
@@ -19,11 +16,23 @@ function App() {
   );
 }
 function Home() {
-  return <h2>Home</h2>;
+  return (
+    <>
+      <Link to="/shadowdom">
+        <button className="bg-green-400 rounded-lg text-sm">Shadow DOM</button>
+      </Link>
+    </>
+  );
 }
 
 function ShadowDom() {
-  return <h2>Shadow DOM</h2>;
+  return (
+    <>
+      <Link to="/">
+        <button className="bg-green-400 rounded-lg text-sm">Home</button>
+      </Link>
+    </>
+  );
 }
 
 export default App;

@@ -36,6 +36,9 @@ yarn start
 
 ## Task List
 
+- [] Post List
+- [] Example Post
+- [] DB settings
 - [] Redux
 - [] Redux Saga
 - [] Redux Persist
