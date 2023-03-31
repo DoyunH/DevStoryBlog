@@ -1,3 +1,14 @@
+/* Nanum Gothic + NotoSans font */
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Sans+KR:wght@500;700&display=swap");
+
 @tailwind base;
+@font-face {
+  font-family: "Nanum Gothic";
+  src: url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Sans+KR:wght@500;700&display=swap");
+}
+@font-face {
+  font-family: "Noto Sans KR";
+  src: url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Sans+KR:wght@500;700&display=swap");
+}
 @tailwind components;
 @tailwind utilities;

@@ -6,7 +6,7 @@ function App() {
     <Router>
       <nav className="flex items-center justify-center py-3 border-b-2">
         <img src={logo} className="w-10" alt="logo" />
-        <p className="text-2xl font-semibold mr-10">DevStoryBlog</p>
+        <p className="text-xl font-noto font-[500] mr-10">DevStoryBlog</p>
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -17,11 +17,10 @@ function App() {
 }
 function Home() {
   return (
-    <>
-      <Link to="/shadowdom">
-        <button className="bg-green-400 rounded-lg text-sm">Shadow DOM</button>
-      </Link>
-    </>
+    <Link to="/shadowdom">
+      <h1 className="text-md font-[600]">Shadow DOM 이란?</h1>
+      <p className="font-nanum">Shadow DOM이란 무엇일까요? ...</p>
+    </Link>
   );
 }
 
