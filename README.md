@@ -26,6 +26,7 @@ yarn start
 ### 2023-03-31
 
 - [x] hosting Error handling
+- [x] add icon to favicon image
 
 ## Task List
 
