@@ -23,6 +23,10 @@ yarn start
 - [x] Connect with GitHub
 - [x] host on GitHub Pages
 
+### 2023-03-31
+
+- [x] hosting Error handling
+
 ## Task List
 
 - [x] React
