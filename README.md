@@ -31,12 +31,10 @@ yarn start
 
 - [x] hosting Error handling
 - [x] add icon to favicon image
+- [x] React Router
 
 ## Task List
 
-- [x] React
-- [x] TypeScript
-- [] React Router
 - [] Redux
 - [] Redux Saga
 - [] Redux Persist
