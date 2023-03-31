@@ -32,6 +32,7 @@ yarn start
 - [x] hosting Error handling
 - [x] add icon to favicon image
 - [x] React Router
+- [x] Nav Ui settings
 
 ## Task List
 
