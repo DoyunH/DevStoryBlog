@@ -34,6 +34,11 @@ yarn start
 - [x] React Router
 - [x] Nav Ui settings
 
+### 2023-04-03
+
+- [x] router entry point fix
+- [x] html title add (DevStoryBlog)
+
 ## Task List
 
 - [] Post List
