@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/DevStoryBlog/static/css/main.00cbf0d5.css",
-    "main.js": "/DevStoryBlog/static/js/main.dcfec143.js",
+    "main.js": "/DevStoryBlog/static/js/main.8a97ddc5.js",
     "static/js/787.75e1924f.chunk.js": "/DevStoryBlog/static/js/787.75e1924f.chunk.js",
     "static/media/logo.svg": "/DevStoryBlog/static/media/logo.dfe60c47dd8f01f9bac53ae76434bae5.svg",
     "index.html": "/DevStoryBlog/index.html",
     "main.00cbf0d5.css.map": "/DevStoryBlog/static/css/main.00cbf0d5.css.map",
-    "main.dcfec143.js.map": "/DevStoryBlog/static/js/main.dcfec143.js.map",
+    "main.8a97ddc5.js.map": "/DevStoryBlog/static/js/main.8a97ddc5.js.map",
     "787.75e1924f.chunk.js.map": "/DevStoryBlog/static/js/787.75e1924f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.00cbf0d5.css",
-    "static/js/main.dcfec143.js"
+    "static/js/main.8a97ddc5.js"
   ]
 }
