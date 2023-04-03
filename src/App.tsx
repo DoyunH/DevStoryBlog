@@ -27,7 +27,7 @@ function Home() {
 function ShadowDom() {
   return (
     <>
-      <Link to='/'>
+      <Link to='/DevStoryBlog'>
         <button className='bg-green-400 rounded-lg text-sm'>Home</button>
       </Link>
     </>
