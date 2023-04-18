@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
 import Home from "./components/Home";
+import BlogPost from "./components/BlogPost";
 
 function App() {
   return (
@@ -11,27 +12,9 @@ function App() {
       </nav>
       <Routes>
         <Route path='/DevStoryBlog' element={<Home />} />
-        <Route path='/shadowdom' element={<ShadowDom />} />
+        <Route path='/post/:postID' element={<BlogPost />} />
       </Routes>
     </Router>
-  );
-}
-// function Home() {
-//   return (
-//     <Link to='/shadowdom'>
-//       <h1 className='text-md font-[600]'>Shadow DOM 이란?</h1>
-//       <p className='font-nanum'>Shadow DOM이란 무엇일까요? ...</p>
-//     </Link>
-//   );
-// }
-
-function ShadowDom() {
-  return (
-    <>
-      <Link to='/DevStoryBlog'>
-        <button className='bg-green-400 rounded-lg text-sm'>Home</button>
-      </Link>
-    </>
   );
 }
 
