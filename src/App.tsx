@@ -10,10 +10,12 @@ function App() {
         <img src={logo} className="w-10" alt="logo" />
         <p className="text-xl font-noto font-[500] mr-10">DevStoryBlog</p>
       </nav>
-      <Routes>
-        <Route path="/DevStoryBlog" element={<Home />} />
-        <Route path="/post/:postID" element={<BlogPost />} />
-      </Routes>
+      <div className="mt-5 mx-10">
+        <Routes>
+          <Route path="/DevStoryBlog" element={<Home />} />
+          <Route path="/post/:postID" element={<BlogPost />} />
+        </Routes>
+      </div>
     </Router>
   );
 }
