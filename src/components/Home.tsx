@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className="mx-10">
       <Link to="/post/1">
-        <div className="my-5 px-5 py-7 border-slate-900 border-2 rounded-lg bg-[#f8C44c] shadow-md transition ease-in-out delay-100  hover:-translate-y-0 hover:bg-white hover:shadow-2xl duration-300">
+        <div className="my-5 px-5 py-7 border-slate-900 border-2 rounded-lg bg-[#f8C44c] transition ease-in-out delay-100  hover:-translate-y-0 hover:bg-white hover:shadow-xl duration-300">
           <h1 className="text-2xl font-semibold italic text-slate-900 text-center mb-3">
             ¿Qué es DataDog?
           </h1>
@@ -13,7 +13,7 @@ const Home = () => {
         </div>
       </Link>
       <Link to="/post/2">
-        <div className="my-5 px-5 py-7 border-slate-900 border-2 rounded-lg bg-[#3ebd5c] shadow-md transition ease-in-out delay-100  hover:-translate-y-0 hover:shadow-2xl hover:bg-white  duration-300">
+        <div className="my-5 px-5 py-7 border-slate-900 border-2 rounded-lg bg-[#3ebd5c] transition ease-in-out delay-100  hover:-translate-y-0 hover:shadow-xl hover:bg-white  duration-300">
           <h1 className="text-2xl font-semibold italic text-slate-900 text-center mb-3">
             Shadow DOM 이란?
           </h1>
@@ -21,7 +21,7 @@ const Home = () => {
         </div>
       </Link>
       <Link to="/post/3">
-        <div className="my-5 px-5 py-7 border-slate-900 border-2 rounded-lg bg-[#428fff] shadow-md transition ease-in-out delay-100  hover:-translate-y-0 hover:shadow-2xl hover:bg-white  duration-300">
+        <div className="my-5 px-5 py-7 border-slate-900 border-2 rounded-lg bg-[#428fff] transition ease-in-out delay-100  hover:-translate-y-0 hover:shadow-xl hover:bg-white  duration-300">
           <h1 className="text-2xl font-semibold italic text-slate-900 text-center mb-3">
             Shadow DOM 이란?
           </h1>
