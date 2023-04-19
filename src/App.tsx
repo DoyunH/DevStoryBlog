@@ -13,7 +13,18 @@ function App() {
       <div className="mt-5 mx-10">
         <Routes>
           <Route path="/DevStoryBlog" element={<Home />} />
-          <Route path="/post/:postID" element={<BlogPost />} />
+          <Route
+            path="/post/:postID"
+            element={
+              <BlogPost
+                title="Sample Blog Post"
+                content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ..."
+                author="John Doe"
+                date="April 19, 2023"
+                color="#f8C44c"
+              />
+            }
+          />
         </Routes>
       </div>
     </Router>
