@@ -5,7 +5,6 @@ interface BlogPostProps {
   content: string;
   author: string;
   date: string;
-  color: "#f8C44c" | "#3ebd5c" | "#428fff";
 }
 
 const BlogPost: React.FC<BlogPostProps> = ({
@@ -13,12 +12,10 @@ const BlogPost: React.FC<BlogPostProps> = ({
   content,
   author,
   date,
-  color,
 }) => {
   return (
     <div
       className={`max-w-2xl mx-auto  rounded-xl shadow-md text-slate-900 border-slate-900 border-2 overflow-hidden p-8 transition ease-in-out delay-100  hover:-translate-y-0 hover:bg-white hover:shadow-xl duration-300`}
-      style={{ backgroundColor: color }}
     >
       <h2 className="text-2xl font-bold mb-2">{title}</h2>
       <p className="text-gray-600 text-sm mb-6">
