@@ -15,7 +15,7 @@ function App() {
       <nav className="flex items-center justify-center lg:justify-around lg:pl-5 py-3 border-slate-900 border-b-2">
         <Link to="/DevStoryBlog" className="flex items-center">
           <img src={logo} className="w-10" alt="logo" />
-          <p className="text-xl font-noto font-[500] mr-10">DevStoryBlog</p>
+          <p className="text-xl font-noto font-[500]">DevStoryBlog</p>
         </Link>
         <div className="absolute lg:relative right-1">
           <span
