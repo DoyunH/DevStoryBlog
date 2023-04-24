@@ -14,9 +14,7 @@ const BlogPost: React.FC<BlogPostProps> = ({
   date,
 }) => {
   return (
-    <div
-      className={`max-w-2xl mx-auto  rounded-xl shadow-md text-slate-900 border-slate-900 border-2 overflow-hidden p-8 transition ease-in-out delay-100  hover:-translate-y-0 hover:bg-white hover:shadow-xl duration-300`}
-    >
+    <div className="mx-auto text-slate-900">
       <h2 className="text-2xl font-bold mb-2">{title}</h2>
       <p className="text-gray-600 text-sm mb-6">
         By {author} - {date}

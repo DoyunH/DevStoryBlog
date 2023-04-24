@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import BlogPost from "./BlogPost";
+import BlogPost from "./PostItem";
 
 const Home = () => {
   return (
@@ -9,7 +9,6 @@ const Home = () => {
         <Link to="/post/1">
           <BlogPost
             title="¿Qué es DataDog?"
-            content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ..."
             author="John Doe"
             date="April 19, 2023"
           />
@@ -19,7 +18,6 @@ const Home = () => {
         <Link to="/post/2">
           <BlogPost
             title="¿Qué es DataDog?"
-            content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ..."
             author="John Doe"
             date="April 19, 2023"
           />
@@ -29,7 +27,6 @@ const Home = () => {
         <Link to="/post/3">
           <BlogPost
             title="¿Qué es DataDog?"
-            content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ..."
             author="John Doe"
             date="April 19, 2023"
           />
