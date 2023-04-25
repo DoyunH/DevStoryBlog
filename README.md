@@ -20,12 +20,18 @@ yarn start
 
 ## Journal
 
-### 2023-03-30
+- [x] responsive menu design
+- [x] add menu log in nav bar
 
-- [x] Create React App
-- [x] Add TypeScript
-- [x] Connect with GitHub
-- [x] host on GitHub Pages
+### 2023-04-03
+
+- [x] router entry point fix
+- [x] html title add (DevStoryBlog)
+
+### 2023-04-03
+
+- [x] router entry point fix
+- [x] html title add (DevStoryBlog)
 
 ### 2023-03-31
 
@@ -34,10 +40,12 @@ yarn start
 - [x] React Router
 - [x] Nav Ui settings
 
-### 2023-04-03
+### 2023-03-30
 
-- [x] router entry point fix
-- [x] html title add (DevStoryBlog)
+- [x] Create React App
+- [x] Add TypeScript
+- [x] Connect with GitHub
+- [x] host on GitHub Pages
 
 ## Task List
 

@@ -64,14 +64,29 @@ function App() {
             path="/post/:postID"
             element={
               <PostContent
-                title="Sample Blog Post"
-                content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus nibh velit, et tempus purus scelerisque vel. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus sagittis vehicula sapien, sit amet feugiat metus ullamcorper at. Donec turpis mauris, mollis sed mollis at, condimentum nec mauris. Pellentesque tempor euismod faucibus. Maecenas sit amet lobortis eros. Praesent in feugiat nisi, at semper lorem. Nunc eros lorem, viverra eu tortor ut, pharetra gravida diam. Suspendisse ex orci, tristique quis libero vel, gravida pulvinar mi. Proin congue tortor vitae congue porta. Mauris vitae sem id odio accumsan tempor sed sit amet eros. Donec vulputate augue nec dictum posuere. Vestibulum feugiat ipsum at vehicula lobortis. Maecenas interdum tortor sapien, vel auctor nunc volutpat eget. Morbi commodo convallis sem vel egestas. Proin consectetur erat ultrices interdum egestas.
+                title="Enhancing Checkout Experience on WordPress Sites with Simple JavaScript Tricks"
+                content="Introduction:
+JavaScript is a handy tool that can make websites more interactive and user-friendly. One great example is improving the checkout process on a WordPress site. In this article, we'll explore a simple way to use JavaScript to make the checkout experience better for your customers.
 
-Curabitur cursus tellus metus, et scelerisque magna eleifend euismod. Aliquam ac justo semper, tristique metus eget, tempus metus. Nullam sit amet nunc eu nunc dapibus lobortis id in quam. Fusce vitae sagittis mi. Nulla suscipit faucibus ex, vitae faucibus quam pellentesque vitae. Sed ultrices augue quis porta finibus. Duis gravida tempus massa hendrerit vehicula. Praesent porttitor vel orci at tempus. Phasellus malesuada, nisi a laoreet egestas, risus lacus scelerisque justo, a pellentesque felis sem vel neque. Nullam accumsan magna in dolor porttitor, eu iaculis nunc lacinia. Sed cursus cursus urna, vehicula semper diam dapibus id. Donec sit amet porttitor nisi.
+Body:
 
-Aliquam id tempor orci, vitae consectetur urna. Phasellus vel pretium justo. Integer imperdiet nisl tempor hendrerit tincidunt. Praesent bibendum mauris lacus, a faucibus dolor pretium sit amet. Pellentesque sagittis arcu ac lobortis facilisis. Ut risus orci, finibus ac porttitor ac, rhoncus in tortor. Aenean eu elit diam. Phasellus nec erat dui. Aenean efficitur sodales risus quis vulputate. Maecenas feugiat tristique diam sit amet venenatis. Sed mollis mauris nec sapien consequat tincidunt. Nulla commodo velit neque, ut porta sapien sollicitudin sed. Duis arcu lacus, pulvinar eget arcu non, feugiat scelerisque purus. Donec sit amet magna in nunc posuere sodales.
+Spotting the Issue:
+During online shopping, customers often come across various input fields and dropdown menus in the checkout process. Sometimes, these elements lack clear placeholder text, making it confusing for users. To solve this problem, we can use JavaScript to add helpful placeholder text when specific conditions are met.
 
-Sed quis vehicula lorem. Nam molestie ex massa, non congue justo finibus eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque eleifend efficitur tristique. Cras consequat suscipit arcu, ut condimentum lorem ultrices at. Nunc ullamcorper auctor velit a pretium. Proin scelerisque, eros ut euismod volutpat, libero ligula consequat sapien, vel gravida mi massa eget quam. Suspendisse augue justo, dignissim et ultricies sed, pulvinar eu leo. Cras id dui diam. Sed luctus sem in odio porta, a commodo neque tincidunt."
+Adding Placeholder Text with JavaScript:
+An easy solution is to use basic JavaScript to add placeholder text to input fields with the 'select2-search__field' class when the URL path is '/checkout/'. We can do this by using a DOMContentLoaded event listener to check the current URL path and then set up a MutationObserver to look for changes in the web page. When the right input field is found, the observer sets the placeholder attribute and then stops.
+
+Loading Your JavaScript File in WordPress:
+To apply this solution to a WordPress site, we need to load the JavaScript file correctly. This involves adding a function in the functions.php file that enqueues the script using the wp_enqueue_script() function. Then, we use the add_action() function with the 'wp_enqueue_scripts' hook to make sure the script is loaded properly.
+
+Reacting to User Clicks:
+In some cases, we might want to add the placeholder text only when the user clicks on a specific element. To do this, we can change our JavaScript code to listen for click events on elements with the 'select2-selection select2-selection--single' class. When one of these elements is clicked, we use the same MutationObserver setup to find the input field and add the placeholder text.
+
+Running the Script Only on the Checkout Page:
+To make our solution even better, we can make sure the JavaScript code runs only when the URL path is '/checkout/'. We can achieve this by wrapping the entire script content in a conditional statement checking the current path. Although the script will be loaded on all pages, it will run only on the checkout page, making the site more efficient.
+
+Conclusion:
+In this article, we showed you a simple way to use JavaScript to improve the checkout experience on a WordPress site. By adding dynamic placeholder text and ensuring the script is loaded properly, we can make the checkout process friendlier and easier to use. This is just one example of how JavaScript can help make websites more engaging and user-friendly."
                 author="John Doe"
                 date="April 19, 2023"
               />
